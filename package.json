@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^2.2.7",
     "react-redux": "^7.2.4",
-    "react-scripts": "1.1.1",
+    "react-redux-loading": "^4.6.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
     "redux": "^4.1.0",
     "redux-thunk": "^2.3.0"
   },
@@ -20,5 +23,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/udacity/reactnd-chirper-app.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
